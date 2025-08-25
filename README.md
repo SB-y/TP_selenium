@@ -14,6 +14,7 @@ Pour installer les dépendances :
 
     cd TP_selenium
     npm install
+ - Cette commande installe toutes les dépendances listées dans package.json, y compris selenium-webdriver.
 
 ## Lancement des scripts
 
