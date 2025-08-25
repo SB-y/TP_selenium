@@ -1,37 +1,70 @@
-# TP_selenium
+ TP_selenium
 
-Ce projet contient des scripts Selenium pour automatiser des actions sur le site SauceDemo. 
+Ce projet contient des scripts Selenium pour automatiser des actions sur le site SauceDemo.  
 
-Pour installer les dépendances : 
--> ouvrez le terminal intégré
--> clonez le dépôt avec `git clone https://github.com/SB-y/TP_selenium.git`
--> entrez dans le dossier `cd TP_selenium` et tapez `npm install`
+## Installation des dépendances
+
+Pour installer les dépendances :  
+- Ouvrez le terminal intégré  
+- Clonez le dépôt :  
+  ```bash
+  git clone https://github.com/SB-y/TP_selenium.git
+
+    Entrez dans le dossier et installez les dépendances :
+
+    cd TP_selenium
+    npm install
+
+## Lancement des scripts
 
 Pour lancer les scripts :
--> appuyez sur RUN dans le terminal
-OU
--> utilisez `node script1.js` ou `node script2.js` ou `node script3.js` selon le script à lancer 
 
-Les scripts effectuent les actions suivantes :
--> script 1
-connexion avec l’utilisateur `standard_user`
-listing des 6 articles dans le terminal
+    Appuyez sur RUN dans le terminal
+    
+    OU
 
--> script 2
-connexion avec l’utilisateur `standard_user`
-ajout de 2 articles au panier
-passage en checkout et validation de la commande
-remplissage des 3 champs
-poursuite en appuyant sur continue et finish
-vérification dans le terminal du bon message
+    Utilisez les commandes suivantes selon le script à lancer :
 
--> script 3
-connexion avec l’utilisateur `standard_user`
-application d'un tri du moins cher au plus cher
-récupération des 3 produits les moins chers avec nom et prix dans le terminal
+    node script1.js
+    node script2.js
+    node script3.js
 
+## Description des scripts
 
-Les principales difficultés rencontrées ont été : 
-• cibler correctement les boutons "Add to cart", car certains ont des ID avec des caractères spéciaux
-• trouver la bonne méthode filtrer par prix croissant
-• sélectionner la bonne option du filtre
+-> Script 1
+
+    Connexion avec l’utilisateur standard_user
+
+    Listing des 6 articles dans le terminal
+
+-> Script 2
+
+    Connexion avec l’utilisateur standard_user
+
+    Ajout de 2 articles au panier
+
+    Passage en checkout et validation de la commande
+
+    Remplissage des 3 champs (prénom, nom, code postal)
+
+    Poursuite en appuyant sur Continue et Finish
+
+    Vérification dans le terminal du bon message
+
+-> Script 3
+
+    Connexion avec l’utilisateur standard_user
+
+    Application d'un tri du moins cher au plus cher
+
+    Récupération des 3 produits les moins chers avec nom et prix
+
+    Affichage de ces 3 produits dans le terminal
+
+## Difficultés rencontrées
+
+    Cibler correctement les boutons "Add to cart", car certains ont des ID avec des caractères spéciaux
+
+    Trouver la bonne méthode pour filtrer par prix croissant
+
+    Sélectionner la bonne option du filtre
